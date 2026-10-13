@@ -34,7 +34,7 @@
 ?>
 
 <?php
-    echo "Sequência Decrescente com Passo Fixo<br>
+    echo "4. Sequência Decrescente com Passo Fixo<br>
    Criar uma contagem decrescente de 100 até 0, diminuindo de 5 em 5 a cada passo(volta do laço).<br>"
 ?>
 
@@ -47,7 +47,7 @@
 ?>
 
 <?php
-    echo "Dado um número inicial (ex: 1000) em uma variável, dividi-lo sucessivamente por 2 e contar quantas divisões foram necessárias até que o valor resultante se torne menor do que 1.<br>"
+    echo "5. Dado um número inicial (ex: 1000) em uma variável, dividi-lo sucessivamente por 2 e contar quantas divisões foram necessárias até que o valor resultante se torne menor do que 1.<br>"
 ?>
 
 <?php
