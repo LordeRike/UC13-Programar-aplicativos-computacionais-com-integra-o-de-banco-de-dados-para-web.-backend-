@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02 - Formulários</title>
+</head>
+<body>
+    <h1>Atividade 2 - Calculadora (IMC)</h1>
+    <p>Formulário: peso (em kg) e a altura (em metros).<br>
+        P:HP recebe os dados, calcula o IMC (peso dividido pela altura ao quadrado) e devolve <br>o valor juntamente com a classificação
+        <br>Menor que 18,5    Baixo peso / Magreza    
+        <br>18,5 a 24,9    Peso adequado (normal)    
+        <br><br>25,0 a 29,9    Sobrepeso    
+        <br>30,0 a 34,9    Obesidade grau I    
+        <br>35,0 a 39,9    Obesidade grau II (severa)    
+        <br>40,0 ou mais    Obesidade grau III (mórbida / grave)
+    </p>
+    
+    <form method="post" action="calcularIMC.php">
+        <label for="altura">Digite a sua altura: </label>
+        <input type="number" name="altura" id="altura" step="any" required>
+        <br><br>
+
+        <label for="peso">Digite o seu peso: </label>
+        <input type="number" name="peso" id="peso" step="any" required>
+        <br><br>
+
+        <input type="submit" value="Calcular IMC">
+    </form>    
+</body>
+</html>

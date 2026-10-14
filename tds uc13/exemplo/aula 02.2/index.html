@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Soma de 3 Números</title>
+</head>
+<body>
+    <h2>Calculadora de Soma</h2>
+    
+    <!-- O formulário envia os dados para 'somar.php' usando o método POST -->
+    <form method="post" action="somar.php">
+        <label for="num1">Primeiro número:</label>
+        <input type="number" name="num1" id="num1" step="any" required>
+        <br><br>
+
+        <label for="num2">Segundo número:</label>
+        <input type="number" name="num2" id="num2" step="any" required>
+        <br><br>
+
+        <label for="num3">Terceiro número:</label>
+        <input type="number" name="num3" id="num3" step="any" required>
+        <br><br>
+
+        <input type="submit" value="Calcular Soma">
+    </form>
+</body>
+</html>
