@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Calculadora de Área e PerímetroFormulário</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Área e Perímetro Formulário</h1>
+        <p>
+            Formulário:  Largura e Altura de um retângulo <br>
+            PHP: Processa os dados para calcular a área e o perímetro <br> apresentando os dois resultados.
+        </p>
+    </header>
+    <form action="calcularArea.php" method="post">
+        <label for="largura">Largura:</label>
+        <input type="number" name="largura" id="largura" step="any" required>
+        <br><br>
+
+        <label for="altura">Altura:</label>
+        <input type="number" name="altura" id="altura" step="any" required>
+        <br><br>
+
+        <input type="submit" value="calcular Area">
+
+    </form>
+    
+</body>
+</html>

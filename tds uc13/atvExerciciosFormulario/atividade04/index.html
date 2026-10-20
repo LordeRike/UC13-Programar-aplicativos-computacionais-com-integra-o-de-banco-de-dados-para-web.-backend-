@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média Escolar</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Média Escolar</h1>
+        <p>
+            Formulário: Nome do Aluno e 3 notas <br>PHP: Calcula a média aritmética das três notas. <br>Exibe o nome do aluno, a média final e uma mensagem  de<br> "Aprovado" (se média >= 7) ou "Reprovado" (se média < 7);
+        </p>
+    </header>
+    <main>
+        <fieldset>
+            <legend><strong>Calcular Média</strong></legend>
+            <form action="calcularMedia.php" method="post">
+                
+                <label for="nome">Nome do Aluno:</label>
+                <input type="text" name="nome" id="nome" required>
+                <br><br>
+    
+                <label for="num1">Primeiro número:</label>
+                <input type="number" name="num1" id="num1" step="any" required>
+                <br><br>
+    
+                <label for="num2">Segundo número:</label>
+                <input type="number" name="num2" id="num2" step="any" required>
+                <br><br>
+    
+                <label for="num3">Terceiro número:</label>
+                <input type="number" name="num3" id="num3" step="any" required>
+                <br><br>
+    
+                <input type="submit" value="Calcular Média">
+            </form>
+        </fieldset>
+        
+    </main>
+    
+</body>
+</html>
