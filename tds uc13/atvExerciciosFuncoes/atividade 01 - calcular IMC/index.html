@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Funções</title>
+</head>
+<body>
+    <header>
+        <h1>Atividade - Funções</h1>
+        <fieldset>
+            <p>
+                Crie uma função chamada calcularIMC($peso, $altura) que receba o peso e a altura de uma pessoa. <br>A função deve calcular o Índice de Massa Corporal e usar o comando return para devolver o resultado exato. <br>No programa principal, chame a função e exiba a classificação (ex: Abaixo do peso, Peso normal, etc.) usando estruturas condicionais.  
+            </p>
+        </fieldset>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend><strong>Calcular IMC:</strong></legend>
+
+            <form action="calcularIMC.php" method="post">
+                
+                <label for="altura">Digite a sua altura(m): </label>
+                <input type="number" name="altura" id="altura" step="any" required>
+                <br><br>
+                
+                <label for="peso">Digite o seu peso(Kg): </label>
+                <input type="number" name="peso" id="peso" step="any" required>
+                <br><br>
+
+                <input type="submit" value="Calcular IMC">
+            </form>
+        </fieldset>
+    </main>
+    
+</body>
+</html>

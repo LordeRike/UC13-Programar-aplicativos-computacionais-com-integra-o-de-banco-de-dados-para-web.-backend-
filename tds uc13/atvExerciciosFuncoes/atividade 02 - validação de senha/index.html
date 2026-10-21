@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Funções - Validação de Senha</title>
+</head>
+<body>
+    <header>
+        <h1>Atividade Funções - Validação de Senha</h1>
+        <fieldset>
+            <p>
+                Crie um formulário onde o usuário digite uma senha. Essa senha deve ser enviada para o php e através de uma função validar se a senha é forte. <br>
+
+                Critérios para a senha ser considerada forte. <br>
+
+                Ter pelo menos 8 caracteres <br>
+                Conter pelo menos uma letra maiúscula <br>
+                Conter pelo menos um número. <br>
+                A função deve retornar true se for válida e false caso contrário. <br>
+            </p>
+        </fieldset>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend><strong>Validação de Senha Forte</strong></legend>
+            
+            <form action="validarSenha.php" method="post">
+                <label for="senha">Digite a sua senha: </label><br>
+                <input type="password" name="senha" id="senha" required>
+                <br><br>
+
+                <input type="submit" value="Validar Senha">
+
+            </form>
+        </fieldset>
+    </main>
+    
+</body>
+</html>
