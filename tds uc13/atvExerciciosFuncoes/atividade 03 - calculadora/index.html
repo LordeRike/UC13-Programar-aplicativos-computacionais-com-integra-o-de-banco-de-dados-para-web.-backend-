@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Funções - Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <p>
+            Crie uma função calcular. Ela deve receber 3 valores: dois números e a operação a ser realizada.     <br>Implementar a função para realizar o cálculo conforme o usuário informou e devolver o resultado. <br>
+            Faça o formulário para testar a função
+        </p>
+    </header>
+    <main>
+        <fieldset>
+            <legend><strong>calcular:</strong></legend>
+
+            <form action="calculadora.php" method="POST">
+                <label for="num1">Digite o Primeiro número: </label>
+                <input type="number" name="num1" id="num1">
+                <br><br>
+
+                <label for="num2">Digite o Segundo número: </label>
+                <input type="number" name="num2" id="num2">
+                <br><br>
+
+                <label for="operador">Digite o simbolo da operação: </label>
+                <input type="text" name="operador" id="operador">
+                <br><br>
+
+                <button type="submit">Calcular</button>
+            </form>
+        </fieldset>
+        
+        
+        
+    </main>
+    
+</body>
+</html>
