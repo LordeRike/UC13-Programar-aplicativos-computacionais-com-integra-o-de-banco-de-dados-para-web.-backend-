@@ -8,6 +8,12 @@
         $valorR = $_POST['valor'];
         $quantidadeR = $_POST['quantidade'];
 
-        $novoProduto = new Produto($descricaoR, $fabricanteR);
+        $novoProduto = new Produto($descricaoR, $fabricanteR, $pesoR, $valorR, $quantidadeR);
+
+        echo "<h2>Produto adicionado com sucesso<h2>";
+        echo "<p>".$novoProduto->apresentar()."</p>";
+        echo "<br><a href='index.html'>Voltar ao formulário</a>";
+    } else {
+        echo "Acesso inválido. Por favor, utilize o formulário.";
     }
 ?>
