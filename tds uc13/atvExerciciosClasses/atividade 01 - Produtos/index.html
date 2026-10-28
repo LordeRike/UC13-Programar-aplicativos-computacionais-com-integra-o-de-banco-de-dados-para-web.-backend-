@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 Classes - Produto</title>
+</head>
+<body>
+    <header>
+        <h1>Atividade 1 Classes - Produto</h1>
+    </header>
+    <main>
+        <h2>Novo Produto:</h2>
+        <fieldset>
+            <legend><strong>Produto:</strong></legend>
+
+            <form action="processa.php" method="POST">
+                <label for="descricao">Descricao:</label><br>
+                <input type="text" name="descricao" id="descricao" required><br><br>
+
+                <label for="fabricante">Fabricante:</label><br>
+                <input type="text" name="fabricante" id="fabricante" required><br><br>
+
+                <label for="peso">Peso(KG):</label><br>
+                <input type="number" name="peso" id="peso" required><br><br>
+
+                <label for="valor">Valor(R$):</label><br>
+                <input type="number" name="valor" id="valor" required><br><br>
+
+                <label for="quantidade">Quantidade em Estoque:</label><br>
+                <input type="number" name="quantidade" id="quantidade" required><br><br>
+
+                <button type="submit">Criar Novo Produto</button>
+
+            </form>
+        </fieldset>
+
+    </main>
+    
+</body>
+</html>

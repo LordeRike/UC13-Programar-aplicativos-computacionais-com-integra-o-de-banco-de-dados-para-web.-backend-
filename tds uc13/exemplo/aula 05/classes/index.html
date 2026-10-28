@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Pessoa</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    
+    <!-- O formulário envia os dados para o arquivo processa.php usando o método POST -->
+    <form action="processa.php" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" required><br><br>
+
+        <label for="profissao">Profissão:</label><br>
+        <input type="text" id="profissao" name="profissao" required><br><br>
+
+        <button type="submit">Criar Objeto</button>
+    </form>
+</body>
+</html>
