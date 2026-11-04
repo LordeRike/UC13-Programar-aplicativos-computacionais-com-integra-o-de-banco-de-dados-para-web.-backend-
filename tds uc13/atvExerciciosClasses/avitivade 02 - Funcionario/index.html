@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 Classes - Funcionario</title>
+</head>
+<body>
+    <header>
+        <h1>Atividade 2 Classes - Funcionario</h1>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend><strong>Cadastro de Funcionário</strong></legend>
+            <h2>Novo Funcionário</h2>
+            <form action="processa.php" method="POST">
+                <label for="nome">Nome: </label><br>
+                <input type="text" name="nome" id="nome" required><br><br>
+
+                <label for="setor">Setor: </label><br>
+                <input type="text" name="setor" id="setor" required><br><br>
+
+                <label for="tempo">Tempo de Empresa(anos):</label><br>
+                <input type="number" name="tempo" id="tempo" required><br><br>
+
+                <label for="salario">Salário Base(R$):</label><br>
+                <input type="number" name="salario" id="salario" required><br><br>
+
+                <button type="submit">Adicionar Funcionário</button>
+            </form>
+        </fieldset>
+    </main>
+    
+</body>
+</html>

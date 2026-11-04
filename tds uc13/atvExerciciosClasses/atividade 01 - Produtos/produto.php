@@ -16,7 +16,7 @@
 
         public function apresentar() {
             $soma = $this->quantidade * $this->valor;
-            return "<h2>Produto: {$this->descricao}<h2> <p>Fabricante: <strong>{$this->fabricante}<strong><br>Peso(Kg): <strong>{$this->peso}<strong><br>Valor(R$): <strong>{$this->valor}<strong><br>Quantidade em Estoque: <strong>{$this->quantidade}<strong><br>Valor em Estoque: <strong>$soma<strong> </p>";
+            return "<p>Produto:<strong> {$this->descricao}</strong> <br>Fabricante: <strong>{$this->fabricante}<strong><br>Peso(Kg): <strong>{$this->peso}<strong><br>Valor(R$): <strong>{$this->valor}<strong><br>Quantidade em Estoque: <strong>{$this->quantidade}<strong><br>Valor em Estoque: <strong>$soma<strong> </p>";
         }
     }
 ?>
