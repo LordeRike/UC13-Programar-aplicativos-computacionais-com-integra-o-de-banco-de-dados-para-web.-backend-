@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locação de Veículos</title>
+</head>
+<body>
+    <header>
+        <h1>Locação de Veículos</h1>
+    </header>
+    <hr>
+    <fieldset>
+        <legend><strong>Formulário de Locação de Veículo</strong></legend>
+        <h2>Dados de Locação: </h2>
+        <hr>
+        <form action="processaLocadora.php" method="POST">
+            <label for="modelo">Modelo do Veículo:</label><br><br>
+            <input type="text" name="modelo" id="modelo" placeholder="BYD Seal" required><br><br>
+
+            <label for="valorDiaria">Valor da Diária(R$):</label><br><br>
+            <input type="number" name="valorDiaria" id="valorDiaria" placeholder="299.99" required><br><br>
+
+            <label for="qtdDias">Quantidade de Dias: </label><br><br>
+            <input type="number" name="qtdDias" id="qtdDias" placeholder="5" required><br><br>
+
+            <label for="seguro">Possui Seguro? (1 = Sim/ 2 = Não)</label><br><br>
+            <input type="number" name="seguro" id="seguro" placeholder="1" required><br><br>
+
+            <button type="submit">Enviar Dados</button>
+            
+        </form>
+    </fieldset>
+    <hr>
+    <footer>
+        <a href="../index.html">Voltar ao formulário</a>
+    </footer>
+    
+</body>
+</html>

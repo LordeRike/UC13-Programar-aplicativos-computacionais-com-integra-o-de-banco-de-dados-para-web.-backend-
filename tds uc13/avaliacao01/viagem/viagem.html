@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custos de Viagem</title>
+</head>
+<body>
+    <header>
+        <h1>Custos de Viagem</h1>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend><strong>Formulário de Custos de Viagem:</strong></legend>
+            <h2>Dados de Viagem:</h2>
+            <form action="processaViagem.php" method="POST">
+                <label for="destino">Destino da Viagem:</label><br><br>
+                <input type="text" name="destino" id="destino" placeholder="Toronto" required><br><br>
+
+                <label for="distancia">Distância de Viagem(km):</label><br><br>
+                <input type="number" name="distancia" id="distancia" placeholder="800 km" required><br><br>
+
+                <label for="consumo">Consumo Médio do Veículo (km/l):</label><br><br>
+                <input type="number" name="consumo" id="consumo" placeholder="22.5 Km/l" required><br><br>
+
+                <label for="combustivel">Preço do Litro do Combustível (R$):</label><br><br>
+                <input type="number" name="combustivel" id="combustivel" placeholder="5.49" required><br><br>
+
+                <button type="submit">Calcular Consumo</button>
+
+                
+
+            </form>
+        </fieldset>
+    </main>
+    <hr>
+    <footer>
+        <a href="../index.html">Voltar ao formulário</a>
+    </footer>    
+</body>
+</html>
