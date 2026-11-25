@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Produtos</title>
+</head>
+<body>
+    <header>
+        <h1>Listagem de Produtos</h1>
+    </header>
+    <fieldset>
+        <legend><strong>Selecione a opção desejada:</strong></legend>
+        <form action="../selectAll.php" method="post">
+            <input type="submit" value="Listar Todos" name="listarTodos"><br><br>
+        </form>
+        <form action="../select.php" method="post">
+            <label for="listar">Digite a descrição do produto:</label>
+            <input type="text" name="listar" id="listar"><br><br>
+            <input type="submit" value="Listar Um" name="listarUm">
+        </form>
+
+        
+        
+    </fieldset>
+    
+    <hr>
+    <footer>
+        <a href="../index.html">Voltar</a>
+    </footer>
+    
+    
+</body>
+</html>

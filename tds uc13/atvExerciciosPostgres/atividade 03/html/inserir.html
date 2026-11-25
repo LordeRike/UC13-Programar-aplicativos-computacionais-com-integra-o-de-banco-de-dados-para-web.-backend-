@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Novo Produto!</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend><strong>Cadastro de Produto:</strong></legend>
+            <form action="../insert.php" method="post">
+                <label for="descricao">Descrição do Produto:</label><br>
+                <input type="text" name="descricao" id="descricao"><br><br>
+
+                <label for="valor">Valor(R$):</label><br>
+                <input type="number" name="valor" id="valor"><br><br>
+
+                <label for="quantidade">Quantidade:</label><br>
+                <input type="number" name="quantidade" id="quantidade"><br><br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </fieldset>
+        <a href="../index.html">Voltar</a>
+    </main>    
+</body>
+</html>
